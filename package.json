@@ -1,0 +1,14 @@
+{
+  "name": "mermaid-results-judge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Node judge that validates generated Mermaid diagrams with the real Mermaid parser, so train.py can compare the base and fine-tuned models.",
+  "scripts": {
+    "judge": "node judge.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "30.1.1",
+    "mermaid": "12.1.0"
+  }
+}
